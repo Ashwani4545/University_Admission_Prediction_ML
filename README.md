@@ -15,7 +15,7 @@ The model uses the popular Admission_Predict.csv dataset and performs:
 
 - Cross-validation
 
-Model Training (Linear Regression)
+- Model Training (Linear Regression)
 
 Prediction for new student profiles
 
