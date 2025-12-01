@@ -151,14 +151,10 @@ jupyter notebook admission_model.ipynb
 ## 🔮 Future Improvements
 
 - Add feature scaling (StandardScaler)
-
 - Add polynomial regression for better accuracy
-
 - Deploy using Flask / Streamlit
-
 - Build an interactive web UI
-
-Hyperparameter tuning with randomized search
+- Hyperparameter tuning with randomized search
 
 👤 Author
 
