@@ -91,10 +91,9 @@ with NaN values
 ## 📦 Model Building
 ### ✔ Splitting Data
 
--Features (X): All independent variables
-Target (y): Probability of Admission
-
-Train-test split: 80% train, 20% test
+- Features (X): All independent variables
+- Target (y): Probability of Admission
+- Train-test split: 80% train, 20% test
 
 ### ✔ Model Selection with GridSearchCV
 
