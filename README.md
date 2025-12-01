@@ -1,4 +1,4 @@
-📘 README — Admission Prediction Using Machine Learning
+📘 Admission Prediction Using Machine Learning
 🎯 Project Overview
 
 This project predicts the probability of admission for students applying to universities based on their academic profiles.
