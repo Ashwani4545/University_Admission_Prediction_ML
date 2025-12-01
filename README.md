@@ -156,6 +156,7 @@ jupyter notebook admission_model.ipynb
 - Build an interactive web UI
 - Hyperparameter tuning with randomized search
 
+---
 👤 Author
 
 Ashwani Pandey
