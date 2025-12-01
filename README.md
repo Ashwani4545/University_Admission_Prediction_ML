@@ -140,5 +140,5 @@ Output is displayed in percentage probability of admission.
 ## 🚀 How to Run the Project
 1️⃣ Install required libraries:
 ```
-
+pip install numpy pandas matplotlib scikit-learn
 ```
