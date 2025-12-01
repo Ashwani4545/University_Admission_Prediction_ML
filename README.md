@@ -39,7 +39,8 @@ The dataset contains the following features:
 ---
 
 ## 🛠 Tech Stack
-Programming LanguagePython
+Programming Language
+Python
 
 Libraries Used
 
