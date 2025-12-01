@@ -67,9 +67,7 @@ Linear Regression
 
 Histogram distribution of all major features
 Checking missing values
-
 Dataset structure & information
-
 Statistical description
 
 EDA helps understand feature patterns and data distribution before model building.
