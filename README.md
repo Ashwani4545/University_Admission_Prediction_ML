@@ -156,7 +156,7 @@ jupyter notebook admission_model.ipynb
 
 - Deploy using Flask / Streamlit
 
-Build an interactive web UI
+- Build an interactive web UI
 
 Hyperparameter tuning with randomized search
 
