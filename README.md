@@ -14,7 +14,6 @@ The model uses the popular Admission_Predict.csv dataset and performs:
 - Prediction for new student profiles
 
 ---
-
 ## 📁 Dataset Description
 
 The dataset contains the following features:
