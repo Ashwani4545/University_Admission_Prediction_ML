@@ -61,4 +61,4 @@ Linear Regression
 
 ---
 
-## 
+## 📊 Exploratory Data Analysis (EDA)
