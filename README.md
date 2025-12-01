@@ -63,7 +63,7 @@ Linear Regression
 
 ## 📊 Exploratory Data Analysis (EDA)
 
-The project includes:
+### The project includes:
 
 Histogram distribution of all major features
 Checking missing values
