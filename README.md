@@ -96,7 +96,7 @@ Target (y): Probability of Admission
 
 Train-test split: 80% train, 20% test
 
-✔ Model Selection with GridSearchCV
+### ✔ Model Selection with GridSearchCV
 
 Tested models:
 
