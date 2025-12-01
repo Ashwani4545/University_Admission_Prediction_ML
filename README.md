@@ -114,5 +114,7 @@ Linear Regression performed the best with the highest accuracy.
 
 ---
 ## 🧮 Example Predictions
+```
 model.predict([[337, 118, 4, 4.5, 4.5, 9.65, 0]])
 model.predict([[320, 113, 2, 2.0, 2.5, 8.64, 1]])
+```
