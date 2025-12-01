@@ -97,7 +97,7 @@ with NaN values
 
 ### ✔ Model Selection with GridSearchCV
 
-Tested models:
+### Tested models:
 
 Linear Regression
 
