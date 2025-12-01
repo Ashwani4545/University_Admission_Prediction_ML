@@ -45,19 +45,19 @@ Python
 
 ### Libraries Used
 
-NumPy
+- NumPy
 
-Pandas
+- Pandas
 
-Matplotlib
+- Matplotlib
 
-Scikit-learn
+- Scikit-learn
 
-GridSearchCV
+- GridSearchCV
 
-Train-Test Split
+- Train-Test Split
 
-Linear Regression
+- Linear Regression
 
 ---
 
