@@ -19,4 +19,3 @@ Model Training (Linear Regression)
 
 Prediction for new student profiles
 
-This project is ideal for portfolios, ML beginners, and those practicing regression modeling.
