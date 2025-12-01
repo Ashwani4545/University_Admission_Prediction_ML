@@ -89,7 +89,7 @@ with NaN values
 ---
 
 ## 📦 Model Building
-✔ Splitting Data
+### ✔ Splitting Data
 
 -Features (X): All independent variables
 Target (y): Probability of Admission
