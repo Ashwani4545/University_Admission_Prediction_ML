@@ -146,3 +146,5 @@ pip install numpy pandas matplotlib scikit-learn
 ```
 jupyter notebook admission_model.ipynb
 ```
+
+---
