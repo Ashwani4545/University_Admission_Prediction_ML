@@ -112,3 +112,5 @@ Linear Regression performed the best with the highest accuracy.
 - Trained LinearRegression() model
 - Achieved high test accuracy
 - Final predictions made using the trained model
+
+---
