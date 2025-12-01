@@ -7,7 +7,7 @@ The model uses the popular Admission_Predict.csv dataset and performs:
 
 - Exploratory Data Analysis (EDA)
 
-Data Cleaning & Preprocessing
+- Data Cleaning & Preprocessing
 
 Visualization
 
