@@ -135,3 +135,7 @@ Output is displayed in percentage probability of admission.
 ├── README.md
 └── requirements.txt
 ```
+
+---
+## 🚀 How to Run the Project
+1️⃣ Install required libraries:
