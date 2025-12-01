@@ -13,7 +13,7 @@ The model uses the popular Admission_Predict.csv dataset and performs:
 
 - Model Selection using GridSearchCV
 
-Cross-validation
+- Cross-validation
 
 Model Training (Linear Regression)
 
