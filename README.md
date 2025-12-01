@@ -123,6 +123,6 @@ Output is displayed in percentage probability of admission.
 ---
 
 📈 Results
-Linear Regression achieved the best score among all algorithms
-The model accurately predicts admission probability
-Helps students estimate their chances based on academic metrics
+- Linear Regression achieved the best score among all algorithms
+- The model accurately predicts admission probability
+- Helps students estimate their chances based on academic metrics
