@@ -157,7 +157,7 @@ jupyter notebook admission_model.ipynb
 - Hyperparameter tuning with randomized search
 
 ---
-👤 Author
+## 👤 Author
 
 Ashwani Pandey
 Machine Learning & Data Science Enthusiast
