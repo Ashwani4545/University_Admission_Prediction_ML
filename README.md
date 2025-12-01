@@ -99,17 +99,17 @@ with NaN values
 
 ### Tested models:
 
-Linear Regression
+- Linear Regression
 
-Lasso Regression
+- Lasso Regression
 
-Support Vector Regression
+- Support Vector Regression
 
-Decision Tree Regressor
+- Decision Tree Regressor
 
-Random Forest Regressor
+- Random Forest Regressor
 
-KNN Regressor
+- KNN Regressor
 
 ✔ Evaluation
 
