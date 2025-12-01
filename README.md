@@ -18,4 +18,3 @@ Cross-validation
 Model Training (Linear Regression)
 
 Prediction for new student profiles
-
