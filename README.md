@@ -130,5 +130,8 @@ Output is displayed in percentage probability of admission.
 ---
 ## 📁 Project Structure
 ```
-
+├── admission_predict.csv
+├── admission_model.ipynb (your notebook)
+├── README.md
+└── requirements.txt
 ```
