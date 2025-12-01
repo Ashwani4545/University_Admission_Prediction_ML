@@ -128,5 +128,4 @@ Output is displayed in percentage probability of admission.
 - Helps students estimate their chances based on academic metrics
 
 ---
-
 ## 📁 Project Structure
