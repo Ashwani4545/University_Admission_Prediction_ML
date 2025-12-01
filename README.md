@@ -109,3 +109,5 @@ with NaN values
 ### ✔ Evaluation
 
 Linear Regression performed the best with the highest accuracy.
+
+---
