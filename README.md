@@ -107,7 +107,7 @@ with NaN values
 Linear Regression performed the best with the highest accuracy.
 
 ---
-🧪 Model Training
+## 🧪 Model Training
 
 - Trained LinearRegression() model
 - Achieved high test accuracy
