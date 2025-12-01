@@ -74,7 +74,7 @@ EDA helps understand feature patterns and data distribution before model buildin
 
 ---
 
-🧹 Data Cleaning
+## 🧹 Data Cleaning
 
 Removed Serial No. column
 
