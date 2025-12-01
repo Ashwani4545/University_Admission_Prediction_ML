@@ -9,7 +9,7 @@ The model uses the popular Admission_Predict.csv dataset and performs:
 
 - Data Cleaning & Preprocessing
 
-Visualization
+- Visualization
 
 Model Selection using GridSearchCV
 
