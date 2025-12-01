@@ -87,3 +87,4 @@ with NaN values
 - Created a clean copy of the dataset for modeling
 
 ---
+## 📦 Model Building
