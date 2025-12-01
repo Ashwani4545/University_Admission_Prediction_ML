@@ -154,7 +154,7 @@ jupyter notebook admission_model.ipynb
 
 - Add polynomial regression for better accuracy
 
-Deploy using Flask / Streamlit
+- Deploy using Flask / Streamlit
 
 Build an interactive web UI
 
