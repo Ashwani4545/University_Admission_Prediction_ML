@@ -24,3 +24,13 @@ Prediction for new student profiles
 
 The dataset contains the following features:
 
+| Feature           | Description                            |
+| ----------------- | -------------------------------------- |
+| GRE               | GRE exam score                         |
+| TOEFL             | TOEFL exam score                       |
+| University Rating | Rating of the applied university (1–5) |
+| SOP               | Statement of Purpose strength          |
+| LOR               | Letter of Recommendation strength      |
+| CGPA              | Undergraduate CGPA                     |
+| Research          | Research experience (0 or 1)           |
+| Probability       | Probability of admission               |
