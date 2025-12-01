@@ -152,7 +152,7 @@ jupyter notebook admission_model.ipynb
 
 - Add feature scaling (StandardScaler)
 
-Add polynomial regression for better accuracy
+- Add polynomial regression for better accuracy
 
 Deploy using Flask / Streamlit
 
