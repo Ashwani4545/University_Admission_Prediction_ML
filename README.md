@@ -11,7 +11,7 @@ The model uses the popular Admission_Predict.csv dataset and performs:
 
 - Visualization
 
-Model Selection using GridSearchCV
+- Model Selection using GridSearchCV
 
 Cross-validation
 
