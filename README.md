@@ -76,10 +76,11 @@ EDA helps understand feature patterns and data distribution before model buildin
 
 ## 🧹 Data Cleaning
 
-Removed Serial No. column
+- Removed Serial No. column
 
 Replaced zeros in:
-['GRE', 'TOEFL', 'University Rating', 'SOP', 'LOR', 'CGPA']
+```['GRE', 'TOEFL', 'University Rating', 'SOP', 'LOR', 'CGPA']
 with NaN values
+```
 
 Created a clean copy of the dataset for modeling
