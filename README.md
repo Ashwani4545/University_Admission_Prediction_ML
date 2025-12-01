@@ -106,6 +106,6 @@ with NaN values
 - Random Forest Regressor
 - KNN Regressor
 
-✔ Evaluation
+### ✔ Evaluation
 
 Linear Regression performed the best with the highest accuracy.
