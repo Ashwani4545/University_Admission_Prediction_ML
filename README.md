@@ -6,17 +6,11 @@ This project predicts the probability of admission for students applying to univ
 The model uses the popular Admission_Predict.csv dataset and performs:
 
 - Exploratory Data Analysis (EDA)
-
 - Data Cleaning & Preprocessing
-
 - Visualization
-
 - Model Selection using GridSearchCV
-
 - Cross-validation
-
 - Model Training (Linear Regression)
-
 - Prediction for new student profiles
 
 ---
