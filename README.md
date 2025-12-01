@@ -35,7 +35,7 @@ The dataset contains the following features:
 | Research          | Research experience (0 or 1)           |
 | Probability       | Probability of admission               |
 
-
+-
 
 #
 ## 🛠 Tech Stack
