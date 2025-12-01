@@ -100,15 +100,10 @@ with NaN values
 ### Tested models:
 
 - Linear Regression
-
 - Lasso Regression
-
 - Support Vector Regression
-
 - Decision Tree Regressor
-
 - Random Forest Regressor
-
 - KNN Regressor
 
 ✔ Evaluation
