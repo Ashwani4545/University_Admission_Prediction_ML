@@ -114,7 +114,6 @@ model.predict([[320, 113, 2, 2.0, 2.5, 8.64, 1]])
 Output is displayed in percentage probability of admission.
 
 ---
-
 ## 📈 Results
 - Linear Regression achieved the best score among all algorithms
 - The model accurately predicts admission probability
