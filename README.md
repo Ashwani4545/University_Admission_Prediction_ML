@@ -150,7 +150,7 @@ jupyter notebook admission_model.ipynb
 ---
 ## 🔮 Future Improvements
 
-Add feature scaling (StandardScaler)
+- Add feature scaling (StandardScaler)
 
 Add polynomial regression for better accuracy
 
