@@ -20,6 +20,7 @@ Model Training (Linear Regression)
 Prediction for new student profiles
 
 ---
+
 ## 📁 Dataset Description
 
 The dataset contains the following features:
