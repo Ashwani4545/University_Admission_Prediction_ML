@@ -142,3 +142,7 @@ Output is displayed in percentage probability of admission.
 ```
 pip install numpy pandas matplotlib scikit-learn
 ```
+2️⃣ Run the notebook:
+```
+
+```
