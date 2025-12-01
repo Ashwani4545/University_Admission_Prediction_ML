@@ -90,15 +90,12 @@ with NaN values
 
 ## 📦 Model Building
 ### ✔ Splitting Data
-
 - Features (X): All independent variables
 - Target (y): Probability of Admission
 - Train-test split: 80% train, 20% test
 
 ### ✔ Model Selection with GridSearchCV
-
 ### Tested models:
-
 - Linear Regression
 - Lasso Regression
 - Support Vector Regression
@@ -107,7 +104,6 @@ with NaN values
 - KNN Regressor
 
 ### ✔ Evaluation
-
 Linear Regression performed the best with the highest accuracy.
 
 ---
