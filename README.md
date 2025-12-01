@@ -148,7 +148,7 @@ jupyter notebook admission_model.ipynb
 ```
 
 ---
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 Add feature scaling (StandardScaler)
 
