@@ -43,7 +43,6 @@ Python
 - Matplotlib
 - Scikit-learn
 - GridSearchCV
-
 - Train-Test Split
 
 - Linear Regression
