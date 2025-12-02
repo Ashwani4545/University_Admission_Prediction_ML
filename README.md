@@ -151,7 +151,7 @@ jupyter notebook admission_model.ipynb
 ---
 
 
-
+---
 ## 👤 Author
 
 Ashwani Pandey
