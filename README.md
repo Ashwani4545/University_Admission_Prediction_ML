@@ -42,7 +42,6 @@ Python
 - Pandas
 - Matplotlib
 - Scikit-learn
-
 - GridSearchCV
 
 - Train-Test Split
