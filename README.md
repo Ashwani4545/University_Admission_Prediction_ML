@@ -41,7 +41,6 @@ Python
 - NumPy
 - Pandas
 - Matplotlib
-
 - Scikit-learn
 
 - GridSearchCV
