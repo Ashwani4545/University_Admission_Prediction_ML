@@ -131,7 +131,6 @@ Output is displayed in percentage probability of admission.
 requirements.txt
 README.md
 LICENSE
-
 ```
 
 ---
