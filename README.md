@@ -126,6 +126,17 @@ Output is displayed in percentage probability of admission.
 ├── admission_model.ipynb (your notebook)
 ├── README.md
 └── requirements.txt
+
+/data
+    admission_predict.csv
+/notebooks
+    admission_prediction.ipynb
+/src
+    model.py (optional)
+requirements.txt
+README.md
+LICENSE
+
 ```
 
 ---
