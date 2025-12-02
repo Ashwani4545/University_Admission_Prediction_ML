@@ -39,7 +39,6 @@ Python
 ### Libraries Used
 
 - NumPy
-
 - Pandas
 
 - Matplotlib
