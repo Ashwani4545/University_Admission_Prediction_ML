@@ -274,7 +274,7 @@ def _generate_feature_explanation(
             'attendance_rate': f"Your {value}% attendance rate is a key indicator",
             'academic_grades': f"Academic performance of {value}% significantly impacts risk",
             'family_support': f"Family support {'presence' if value else 'absence'} is important",
-            'socio_economic_status': f"{value.upper()} socio-economic status influences dropout risk",
+            'socio_economic_status': f"{str(value).upper()} socio-economic status influences dropout risk",
             'study_hours': f"{value} hours of daily study affects academic success",
             'distance_from_school': f"{value}km distance from school is a consideration",
             'parent_education': f"Parent education level ({value}) plays a role",
