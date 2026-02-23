@@ -1,159 +1,181 @@
-# 📘 Admission Prediction Using Machine Learning
+# 📘 University Admission Prediction Using Machine Learning
+
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-yellowgreen.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## 🎯 Project Overview
 
-This project predicts the probability of admission for students applying to universities based on their academic profiles.
-The model uses the popular Admission_Predict.csv dataset and performs:
+This project predicts the **probability of admission** for students applying to universities based on their academic profiles.
+It uses the `admission_predict.csv` dataset and covers the full ML pipeline:
 
 - Exploratory Data Analysis (EDA)
 - Data Cleaning & Preprocessing
-- Visualization
+- Data Visualization
 - Model Selection using GridSearchCV
-- Cross-validation
 - Model Training (Linear Regression)
 - Prediction for new student profiles
 
 ---
+
 ## 📁 Dataset Description
+
+**File:** `admission_predict.csv` (500 records)
 
 The dataset contains the following features:
 
-| Feature           | Description                            |
-| ----------------- | -------------------------------------- |
-| GRE               | GRE exam score                         |
-| TOEFL             | TOEFL exam score                       |
-| University Rating | Rating of the applied university (1–5) |
-| SOP               | Statement of Purpose strength          |
-| LOR               | Letter of Recommendation strength      |
-| CGPA              | Undergraduate CGPA                     |
-| Research          | Research experience (0 or 1)           |
-| Probability       | Probability of admission               |
+| Column            | Description                              |
+| ----------------- | ---------------------------------------- |
+| Serial No.        | Unique row identifier (dropped in model) |
+| GRE Score         | GRE exam score (out of 340)              |
+| TOEFL Score       | TOEFL exam score (out of 120)            |
+| University Rating | Rating of the university applied to (1–5)|
+| SOP               | Strength of Statement of Purpose (1–5)   |
+| LOR               | Strength of Letter of Recommendation (1–5)|
+| CGPA              | Undergraduate CGPA (out of 10)           |
+| Research          | Research experience — 0 (No) / 1 (Yes)  |
+| Chance of Admit   | Probability of admission (0–1)           |
 
 ---
 
 ## 🛠 Tech Stack
 
-### Programming Language
-- Python
-
-### Libraries Used
-
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
-- GridSearchCV
-- Train-Test Split
-- Linear Regression
+| Category          | Tools / Libraries                        |
+| ----------------- | ---------------------------------------- |
+| Language          | Python 3                                 |
+| Data Handling     | NumPy, Pandas                            |
+| Visualization     | Matplotlib                               |
+| Machine Learning  | scikit-learn (LinearRegression, Lasso, SVR, DecisionTree, RandomForest, KNN, GridSearchCV) |
+| Notebook          | Jupyter Notebook                         |
 
 ---
 
 ## 📊 Exploratory Data Analysis (EDA)
 
-### The project includes:
-```
-Histogram distribution of all major features
-Checking missing values
-Dataset structure & information
-Statistical description
-```
-EDA helps understand feature patterns and data distribution before model building.
+The project includes:
+
+- Shape, data types, and statistical summary of the dataset
+- Null value detection
+- Histogram distributions for all major features:
+  - GRE Score, TOEFL Score, University Rating, SOP, LOR, CGPA, Research
 
 ---
 
 ## 🧹 Data Cleaning
 
-- Removed Serial No. column
-
-- Replaced zeros in:
-```
-['GRE', 'TOEFL', 'University Rating', 'SOP', 'LOR', 'CGPA']
-with NaN values
-```
-
-- Created a clean copy of the dataset for modeling
+- Renamed columns for convenience:
+  - `GRE Score` → `GRE`, `TOEFL Score` → `TOEFL`, `LOR ` → `LOR`, `Chance of Admit ` → `Probability`
+- Dropped the `Serial No.` column (not a predictive feature)
+- Replaced zero values in `['GRE', 'TOEFL', 'University Rating', 'SOP', 'LOR', 'CGPA']` with `NaN`
+- Created a deep copy of the cleaned dataset for modeling
 
 ---
 
 ## 📦 Model Building
+
 ### ✔ Splitting Data
-- Features (X): All independent variables
-- Target (y): Probability of Admission
-- Train-test split: 80% train, 20% test
+- **Features (X):** All columns except `Chance of Admit`
+- **Target (y):** `Chance of Admit` (renamed to `Probability`)
+- **Split:** 80% train / 20% test
 
 ### ✔ Model Selection with GridSearchCV
-### Tested models:
-- Linear Regression
-- Lasso Regression
-- Support Vector Regression
-- Decision Tree Regressor
-- Random Forest Regressor
-- KNN Regressor
 
-### ✔ Evaluation
-Linear Regression performed the best with the highest accuracy.
+The following models were evaluated:
 
----
-## 🧪 Model Training
-- Trained LinearRegression() model
-- Achieved high test accuracy
-- Final predictions made using the trained model
+| Model                   | Hyperparameters Tuned                        |
+| ----------------------- | -------------------------------------------- |
+| Linear Regression       | `normalize`                                  |
+| Lasso Regression        | `alpha`, `selection`                         |
+| Support Vector Regressor| `gamma`                                      |
+| Decision Tree Regressor | `criterion`, `splitter`                      |
+| Random Forest Regressor | `n_estimators`                               |
+| KNN Regressor           | `n_neighbors`                                |
+
+### ✔ Result
+**Linear Regression** achieved the best cross-validated score and was selected as the final model.
 
 ---
+
+## 🧪 Model Training & Evaluation
+
+- Final model: `LinearRegression()`
+- Fitted on 80% of the dataset
+- Evaluated on the held-out 20% test set
+
+---
+
 ## 🧮 Example Predictions
-```
+
+```python
+# High-achieving student profile
 model.predict([[337, 118, 4, 4.5, 4.5, 9.65, 0]])
+
+# Average student profile
 model.predict([[320, 113, 2, 2.0, 2.5, 8.64, 1]])
 ```
-Output is displayed in percentage probability of admission.
+
+Output is the predicted probability of admission (e.g., `0.89` = 89% chance).
 
 ---
+
 ## 📈 Results
-- Linear Regression achieved the best score among all algorithms
-- The model accurately predicts admission probability
-- Helps students estimate their chances based on academic metrics
+
+- Linear Regression outperformed all other tested algorithms
+- The model accurately estimates admission probability based on academic metrics
+- Can help students gauge their chances before applying
 
 ---
+
 ## 📁 Project Structure
+
 ```
-/data
-    admission_predict.csv
-/notebooks
-    admission_prediction.ipynb
-/src
-    model.py (optional)
-requirements.txt
-README.md
-LICENSE
+University_Admission_Prediction_ML/
+├── admission_predict.csv       # Dataset
+├── Admission prediction.ipynb  # Main Jupyter Notebook
+├── requirements.txt            # Python dependencies
+├── LICENSE                     # MIT License
+└── README.md                   # Project documentation
 ```
 
 ---
+
 ## 🚀 How to Run the Project
-1️⃣ Install required libraries:
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/Ashwani4545/University_Admission_Prediction_ML.git
+cd University_Admission_Prediction_ML
 ```
-pip install numpy pandas matplotlib scikit-learn
+
+**2. Install required libraries**
+```bash
+pip install -r requirements.txt
 ```
-2️⃣ Run the notebook:
-```
-jupyter notebook admission_model.ipynb
+
+**3. Launch the Jupyter Notebook**
+```bash
+jupyter notebook "Admission prediction.ipynb"
 ```
 
 ---
+
 ## 🔮 Future Improvements
 
-- Add feature scaling (StandardScaler)
-- Add polynomial regression for better accuracy
-- Deploy using Flask / Streamlit
-- Build an interactive web UI
-- Hyperparameter tuning with randomized search
+- Add feature scaling with `StandardScaler`
+- Explore polynomial regression for non-linear relationships
+- Deploy using Flask or Streamlit as an interactive web app
+- Hyperparameter tuning with `RandomizedSearchCV`
 
 ---
-## 📄License
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
+
 ## 👤 Author
 
-Ashwani Pandey
-
+**Ashwani Pandey**  
 Machine Learning & Data Science Enthusiast
