@@ -127,7 +127,7 @@ README.md
 LICENSE
 ```
 
----
+
 ## 🚀 How to Run the Project
 1️⃣ Install required libraries:
 ```
@@ -138,7 +138,7 @@ pip install numpy pandas matplotlib scikit-learn
 jupyter notebook admission_model.ipynb
 ```
 
----
+
 ## 🔮 Future Improvements
 
 - Add feature scaling (StandardScaler)
@@ -147,11 +147,11 @@ jupyter notebook admission_model.ipynb
 - Build an interactive web UI
 - Hyperparameter tuning with randomized search
 
----
+
 ## 📄License
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
----
+
 ## 👤 Author
 
 Ashwani Pandey
