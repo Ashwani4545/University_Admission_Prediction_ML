@@ -13,7 +13,7 @@ The model uses the popular Admission_Predict.csv dataset and performs:
 - Model Training (Linear Regression)
 - Prediction for new student profiles
 
----
+
 ## 📁 Dataset Description
 
 The dataset contains the following features:
@@ -29,7 +29,6 @@ The dataset contains the following features:
 | Research          | Research experience (0 or 1)           |
 | Probability       | Probability of admission               |
 
----
 
 ## 🛠 Tech Stack
 
@@ -46,7 +45,6 @@ The dataset contains the following features:
 - Train-Test Split
 - Linear Regression
 
----
 
 ## 📊 Exploratory Data Analysis (EDA)
 
