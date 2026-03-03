@@ -57,7 +57,6 @@ Statistical description
 ```
 EDA helps understand feature patterns and data distribution before model building.
 
----
 
 ## 🧹 Data Cleaning
 
@@ -71,7 +70,6 @@ with NaN values
 
 - Created a clean copy of the dataset for modeling
 
----
 
 ## 📦 Model Building
 ### ✔ Splitting Data
@@ -91,13 +89,13 @@ with NaN values
 ### ✔ Evaluation
 Linear Regression performed the best with the highest accuracy.
 
----
+
 ## 🧪 Model Training
 - Trained LinearRegression() model
 - Achieved high test accuracy
 - Final predictions made using the trained model
 
----
+
 ## 🧮 Example Predictions
 ```
 model.predict([[337, 118, 4, 4.5, 4.5, 9.65, 0]])
@@ -105,13 +103,13 @@ model.predict([[320, 113, 2, 2.0, 2.5, 8.64, 1]])
 ```
 Output is displayed in percentage probability of admission.
 
----
+
 ## 📈 Results
 - Linear Regression achieved the best score among all algorithms
 - The model accurately predicts admission probability
 - Helps students estimate their chances based on academic metrics
 
----
+
 ## 📁 Project Structure
 ```
 /data
